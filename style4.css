@@ -57,10 +57,11 @@ h3{
     font-style:italic;
     font-size: 8rem;
     text-align: center;
-    padding-top: 30rem;
+    padding-top: 20rem;
     text-shadow: 5px 10px 3px black;
 }
 p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: rgba(240, 248, 255, 0.379);
     text-align: center;
     margin-top: 10px;
@@ -80,5 +81,10 @@ img{
     margin-left: auto;
     margin-right: auto;
     margin-top: 3rem;
-    box-shadow: 0px 0px 40px 0px rgba(255, 166, 0, 0.575);
+    box-shadow: 0px 0px 40px 0px rgb(255, 166, 0);
+}
+
+img:hover{
+    opacity: 0.9;
+    box-shadow: 0px 0px 40px 0px pink;
 }
