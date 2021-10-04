@@ -22,6 +22,7 @@ li{
 li a{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-style: bold;
+    font-size: 20px;
     color: white;
     text-align: center;
     text-decoration: none;
@@ -29,6 +30,7 @@ li a{
 }
 li a:hover{
     color: black;
+    text-decoration: underline;
 }
 
 h2{
