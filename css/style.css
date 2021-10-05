@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body{
+    background: rgb(56,56,56);
+    background: radial-gradient(circle, rgba(56,56,56,1) 0%, rgba(25,25,25,0.9332107843137255) 200%);
+    border-style: solid;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    float: right;
+    margin: 50px 50px 0px 0px;
+}
+
+li a{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: bold;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+li a:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+h2{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: bold;
+    font-size: 2.5rem;
+}
+
+.firstLetter{
+    margin: 50px 0px 0px 50px;
+    color: rgb(2, 2, 2);
+    float: left;
+}
+
+.secondLetter{
+    margin: 60px 0px 0px 0px;
+    color:rgba(255, 140, 0, 0.493);
+    float: left;
+}
+
+h3{
+    color: rgb(240, 248, 255);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style:italic;
+    font-size: 8rem;
+    text-align: center;
+    padding-top: 20rem;
+    text-shadow: 5px 10px 3px black;
+}
+.about_me_text, .about_me_text2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color: rgba(240, 248, 255, 0.379);
+    text-align: center;
+    margin-top: 10px;
+}
+
+blockquote{
+    color: rgba(240, 248, 255, 0.379);
+    font-size: 20px;
+    text-align: center;
+    font-style: italic;
+}
+img{
+    opacity: 0.6;
+    border-radius: 50%;
+    height: 25rem;
+    width: 25rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3rem;
+    box-shadow: 0px 0px 40px 0px rgb(255, 166, 0);
+}
+
+img:hover{
+    opacity: 0.9;
+    box-shadow: 0px 0px 40px 0px pink;
+}
+
+
+/*inspiration */
+.main{
+    padding-top: 18rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+}
+
+.main h1{
+    color: aliceblue;
+    font-weight: 1;
+    padding: 100px;
+    margin-bottom: 50px;
+    margin-left: 300px;
+    margin-right: 300px;
+    border:5px rgba(128, 128, 128, 0);
+    border-style:solid;
+    background-color: rgba(128, 128, 128, 0.021);
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.795);
+}
+
+h1 p{
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+    text-decoration: underline;
+}
+
+/*kontakt */
+.kontakt_h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 1;
+    font-size: 50px;
+    color: aliceblue;
+    padding-top: 30px;
+}
+
+p{
+    color: aliceblue;
+}
+
+form{
+    padding-top: 18rem;
+    padding-bottom: auto;
+    padding-left: auto;
+    padding-right: auto;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+label{
+    font-size: 20px;
+    display: inline-block;
+    text-align: left;
+    width: 6.25rem;
+    margin-bottom: 6.25rem;
+    margin-right: 3rem;
+    margin-top: 3.125rem;
+    color: aliceblue;
+}
+
+input{
+    width: 400px;
+    line-height: 25px;
+}
+
+.contact_form{
+    border:5px rgba(128, 128, 128, 0);
+    border-style:solid;
+    background-color: rgba(128, 128, 128, 0.021);
+    margin: auto;
+    width: 60%;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.795)
+}
+
+button{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    background-color: grey;
+    color:aliceblue;
+    border: 3px solid rgb(107, 107, 107);;
+    background-color: rgb(107, 107, 107);
+    box-shadow: 5px 5px 5px  rgba(0, 0, 0, 0.795);
+    margin-bottom: 20px;
+}
+
+button:hover{
+    color: black;
+}
+
+p{
+    color: rgba(255, 255, 255, 0.541);
+}
